@@ -1,6 +1,6 @@
 # Lyric-to-Artist
 
-design, construct, and train an RNN model that classifies input lyric (a sequence of words) to the artist that composed it.
+Design, Construct, and Train an RNN model that classifies input lyric (a sequence of words) to the artist that composed it.
 
 Methodology:
 1. Use LSTM to process the song as a sequence of words. The class torch.nn.LSTM incorporates all the options learned in class. Use the cell type that performs best for this task.
